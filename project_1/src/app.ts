@@ -80,10 +80,59 @@ const oneLine = (a: number, b: number) => a + b;
 
 console.log("oneLine: "+ oneLine(2, 100));
 
-// Function default value
+// Function default function parameters
 
 const defaultValue = (a: number, b: number = 1) => a + b;
 
 
 
 // ARROW FUNCTIONS
+
+
+
+
+
+// Spread Operators
+
+const hobbies = ['Sports', 'Cooking'];
+const activeHobbies = ['Hiking'];
+
+activeHobbies.push(...hobbies);
+
+const person2 = {
+  name: 'Max',
+  age: 30
+};
+
+const copiedPerson = { ...person2 };
+
+debugger;
+
+// Spread Operators
+
+
+// Rest Operator
+
+const addRest = (...numbers: number[]) => {
+    return numbers.reduce((curResult, curValue) => {
+      return curResult + curValue;
+    }, 0);
+  };
+  
+  const addedNumbers = addRest(5, 10, 2, 3.7);
+  console.log(addedNumbers);
+
+  // Rest Operator
+
+
+  // Array and Object destructuring
+
+const [hobby1, hobby2, ...remainingHobbies] = hobbies;
+
+console.log(hobbies, hobby1, hobby2);
+
+const { name: userName, age } = person2;
+
+console.log(userName, age, person2);
+
+// Array and Object destructuring
