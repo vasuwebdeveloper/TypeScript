@@ -52,7 +52,7 @@ const person : {
 
 
 /**
- * TYPE ALIAS or CUSTOM TYPES
+ * TYPE ALIAS or CUSTOM TYPES.......
  */
 
 type combinable = number | string | boolean;
@@ -62,7 +62,9 @@ function typeAliasExample(input1: combinable, input2: number | string | boolean)
     // use type alias for shortcut defined for unions
 }
 
-
 /**
  * TYPE ALIAS or CUSTOM TYPES
  */
+
+
+
