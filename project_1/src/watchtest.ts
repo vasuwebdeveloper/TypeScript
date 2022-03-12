@@ -1,5 +1,7 @@
 console.log("watch.ts");
 
+let valueForEsnext = "ESnext";
+
 /**
  * Watch Mode
  * SIngle file (tsc app.ts --watch)
@@ -16,7 +18,22 @@ console.log("watch.ts");
  * 
  * Add include array in the tsconfig.json file and include the files
  * 
+ * 
+ * 
+ * 
+ * 
+ * Useful Resources & Links
+These links might also be interesting:
+
+    tsconfig Docs: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+
+    Compiler Config Docs: https://www.typescriptlang.org/docs/handbook/compiler-options.html
+
+    VS Code TS Debugging: https://code.visualstudio.com/docs/typescript/typescript-debugging
 */
+
+
+
 
 
 
