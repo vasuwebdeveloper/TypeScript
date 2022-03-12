@@ -13,3 +13,19 @@ console.log(result);
 
 let sentence: string;
 sentence = "stringval";
+
+
+// Object, Array, Tupple
+
+const person : {
+    name: string;
+    age: number;
+    hobbies: string[];
+    role: [number, string]; // Tupple
+   } = {
+   name: 'Vasu',
+   age: 26,
+   hobbies: ['Sports', 'Cooking'],
+   role: [2, 'author']
+   };
+   
