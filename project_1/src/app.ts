@@ -67,4 +67,23 @@ function typeAliasExample(input1: combinable, input2: number | string | boolean)
  */
 
 
+// ARROW FUNCTIONS
 
+const sum =   (a: number, b: number) => {
+  return a + b;
+}
+
+console.log(sum (2, 9));
+
+
+const oneLine = (a: number, b: number) => a + b;
+
+console.log("oneLine: "+ oneLine(2, 100));
+
+// Function default value
+
+const defaultValue = (a: number, b: number = 1) => a + b;
+
+
+
+// ARROW FUNCTIONS
