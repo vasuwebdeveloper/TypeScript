@@ -1,6 +1,13 @@
 const number1 = 5.9;
 const number2 = 9;
 
+/**   ENUM   **/
+
+enum Role { ADMIN, READ_ONLY, AUTHOR};
+
+enum Powers {PW1 = 2, PW2 = 3, PW3 = 'fire'};
+
+/**   ENUM   **/
 
 function add(number1: number,number2: number){
     return number1+number2;
