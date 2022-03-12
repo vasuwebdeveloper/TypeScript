@@ -1,6 +1,7 @@
 const number1 = 5.9;
 const number2 = 9;
 
+
 /**   ENUM   **/
 
 enum Role { ADMIN, READ_ONLY, AUTHOR};
@@ -47,3 +48,21 @@ const person : {
    combine("vasu",26);
 
   //** UNION TYPE */ 
+
+
+
+/**
+ * TYPE ALIAS or CUSTOM TYPES
+ */
+
+type combinable = number | string | boolean;
+
+
+function typeAliasExample(input1: combinable, input2: number | string | boolean){
+    // use type alias for shortcut defined for unions
+}
+
+
+/**
+ * TYPE ALIAS or CUSTOM TYPES
+ */
