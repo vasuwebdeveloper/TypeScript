@@ -36,3 +36,14 @@ const person : {
    role: [2, 'author']
    };
    
+
+
+  //** UNION TYPE */ 
+   
+   function combine(input1: number | string | boolean, input2: number | string | boolean){
+       
+   }
+
+   combine("vasu",26);
+
+  //** UNION TYPE */ 
