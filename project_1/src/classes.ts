@@ -48,3 +48,25 @@ department.addEmployee("Suman");
 //Print employee Info
 
 department.printEmployeeInformation();
+
+
+
+
+
+// Inheritance
+
+
+class ITDepartment extends Department{
+    admins: string [];
+    constructor(id: number, admins: string[]){
+      super("child class",["Madhu","Sudheer"],id);
+      this.admins = admins;
+    }
+
+}
+
+const itDeparment = new ITDepartment(2222,["Adam"]);
+
+console.log("itDeparment>>>",itDeparment);
+
+itDeparment.describe();
