@@ -5,8 +5,13 @@ class Department{
 //   constructor(n:string){
 //    this.name = n;
 //   }
+  
+    static fiscalyear = 2020;
+    static createEmployee(employee: string){
+      return { "employee": employee};
+    }
 
-  constructor(public readonly name: string, public employees: string[], public id: number){
+  constructor(public readonly name: string, protected employees: string[], public id: number){
       this.name = name;
       this.employees = employees;
       this.id = id;
@@ -85,3 +90,12 @@ itDeparment.printEmployeeInformation();
 
 
 itDeparment.describe();
+
+
+// Static Properties
+
+const emp1 = Department.createEmployee("Yashhhhh");
+
+
+console.log("emp1",emp1);
+console.log("fiscalyear",Department.fiscalyear);
