@@ -63,10 +63,25 @@ class ITDepartment extends Department{
       this.admins = admins;
     }
 
+
+    addEmployees(name: string){
+        if(name == "Max"){
+            return;
+        }
+
+        this.employees.push(name);
+        
+    }
+
 }
 
 const itDeparment = new ITDepartment(2222,["Adam"]);
 
 console.log("itDeparment>>>",itDeparment);
+itDeparment.addEmployees("Max");
+itDeparment.addEmployees("Destructor");
+
+itDeparment.printEmployeeInformation();
+
 
 itDeparment.describe();
