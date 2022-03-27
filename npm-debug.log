@@ -8,7 +8,7 @@
 3 info using node@v12.16.3
 4 verbose stack Error: ENOENT: no such file or directory, open 'C:\Typescript POC\Typescript\package.json'
 5 verbose cwd C:\Typescript POC\Typescript
-6 error Windows_NT 10.0.19042
+6 error Windows_NT 10.0.19044
 7 error argv "C:\\Program Files (x86)\\Nodist\\v-x64\\12.16.3\\node.exe" "C:\\Program Files (x86)\\Nodist\\npmv\\4.0.5\\bin\\npm-cli.js" "start"
 8 error node v12.16.3
 9 error npm  v4.0.5

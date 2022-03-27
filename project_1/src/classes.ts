@@ -211,3 +211,26 @@ const names: Readonly<string[]> = ['Max', 'Anna'];
 
 // Utilities docs
 // https://www.typescriptlang.org/docs/handbook/utility-types.html
+
+
+
+// Decorators
+function Logger(constructor: Function){
+  console.log("Loging..................................");
+  console.log(constructor);
+}
+
+
+@Logger
+class Person {
+  name = 'Max';
+
+  constructor(){
+    console.log(" creating person obj................");
+  }
+}
+
+const person11 = new Person();
+
+
+console.log("person11>>>>>",person11);
